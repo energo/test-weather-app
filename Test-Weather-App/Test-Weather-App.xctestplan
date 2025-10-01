@@ -1,0 +1,32 @@
+{
+  "configurations" : [
+    {
+      "id" : "60CFA47D-FB0B-44DC-8C93-372EDB364045",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "performanceAntipatternCheckerEnabled" : true,
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:Test-Weather-App.xcodeproj",
+      "identifier" : "4754C6022E8C7903005CFA2C",
+      "name" : "Test-Weather-App"
+    },
+    "testTimeoutsEnabled" : true,
+    "uiTestingScreenshotsLifetime" : "keepNever"
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : false,
+      "target" : {
+        "containerPath" : "container:Test-Weather-App.xcodeproj",
+        "identifier" : "4754C60F2E8C7905005CFA2C",
+        "name" : "Test-Weather-AppTests"
+      }
+    }
+  ],
+  "version" : 1
+}
